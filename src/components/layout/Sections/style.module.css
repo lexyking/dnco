@@ -1,0 +1,27 @@
+.sectionsContainer {
+  max-width: 100vw;
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .sectionsContainer {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionsContainer {
+    min-height: calc(100vh - 8em);
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .sectionsContainer {
+    max-width: 1600px;
+  }
+}

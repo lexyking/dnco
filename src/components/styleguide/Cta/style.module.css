@@ -1,0 +1,14 @@
+.btnContainer {
+  cursor: pointer;
+  color: var(--brand-white);
+  background: var(--brand-black);
+  padding: 0.5em;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.btnContainer:hover {
+  background: var(--brand-light-gray);
+}

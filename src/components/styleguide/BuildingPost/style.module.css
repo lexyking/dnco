@@ -1,0 +1,34 @@
+.sectionContainer {
+  position: relative;
+  width: 500px;
+  height: 430px;
+  text-align: center;
+  margin: 1em;
+}
+
+.offerImage {
+  z-index: -4;
+}
+
+.offerDescriptionBlock {
+  position: absolute;
+  width: 90%;
+  height: 150px;
+  background: var(--brand-white);
+  margin-top: -25px;
+  left: 20px;
+}
+
+@media screen and (min-width: 680px) {
+  .sectionContainer {
+    width: 450px;
+    height: 390px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionContainer {
+    width: 400px;
+    height: 380px;
+  }
+}

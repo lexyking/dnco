@@ -1,0 +1,13 @@
+.OfferContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 0.5em;
+}
+
+.descriptionsContainer {
+  padding: 0 0.5em;
+  font-size: 0.8em;
+  /* border: 2px solid red; */
+}

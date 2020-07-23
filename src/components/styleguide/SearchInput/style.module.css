@@ -1,0 +1,22 @@
+.searchInputContainer {
+  margin-top: 2em;
+}
+
+.search,
+.reset {
+  padding: 0.5em;
+
+  border-radius: 0.6em;
+  border: none;
+  outline: none;
+}
+
+.search {
+  width: 20em;
+  font-size: 1.1em;
+}
+
+.reset {
+  width: 5em;
+  text-align: center;
+}
